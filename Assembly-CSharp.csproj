@@ -67,6 +67,7 @@
     <Compile Include="Assets\CablecarSIM\Scripte\CableCarController.cs" />
     <Compile Include="Assets\CablecarSIM\Scripte\GameManager.cs" />
     <Compile Include="Assets\CablecarSIM\Scripte\Npc.cs" />
+    <Compile Include="Assets\CablecarSIM\Scripte\WheelController.cs" />
     <Compile Include="Assets\Scripte\BGLoop.cs" />
     <Compile Include="Assets\Scripte\BackgroundController.cs" />
     <Compile Include="Assets\Scripte\BoostDirector.cs" />
