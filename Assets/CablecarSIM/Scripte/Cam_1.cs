@@ -12,8 +12,12 @@ public class Cam_1 : MonoBehaviour
 
     void Update()
     {
-        Vector3 playerpos = this.Player.transform.position;
-        transform.position = new Vector3(playerpos.x, playerpos.y, transform.position.z);
+        if (this.Player.transform.position.y > -5)
+        {
+            Vector3 playerpos = this.Player.transform.position;
+            transform.position = new Vector3(playerpos.x, playerpos.y, transform.position.z);
+        }
+            
     }
 
 }
