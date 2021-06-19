@@ -4,13 +4,14 @@ using UnityEngine;
 
 public class Npc : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public GameObject[] spawn_npc_count;
+
     void Start()
     {
         
     }
 
-    // Update is called once per frame
+    
     void Update()
     {
         
