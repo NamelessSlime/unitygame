@@ -16,11 +16,11 @@ public class CableCarController : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.D) || Input.GetKey(KeyCode.D))
         {
-            rigidbody2d.AddForce(new Vector2(50.0f, 0));
+            rigidbody2d.AddForce(new Vector2(25.0f, 0));
         }
         if (Input.GetKeyDown(KeyCode.A) || Input.GetKey(KeyCode.A))
         {
-            rigidbody2d.AddForce(new Vector2(-50.0f, 0));
+            rigidbody2d.AddForce(new Vector2(-25.0f, 0));
         }
 
 
